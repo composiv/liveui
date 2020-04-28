@@ -1,0 +1,18 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.scannerwork
+package-lock.json
+test-report.xml
+lcov-report
+lcov.info
+clover.xml
+coverage-final.json
+coverage

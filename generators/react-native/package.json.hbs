@@ -1,0 +1,43 @@
+{
+  "name": "{{ name }}",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android --port 5010",
+    "ios": "react-native run-ios --port 5010",
+    "start": "concurrently \"react-native start --port 5010\" \"liveui start-native\"  ",
+    "start-live": "liveui start-native",
+    "build": "liveui build",
+    "test": "jest",
+    "lint": "eslint .",
+    "docker": "docker build -t liveui/{{ name }}:latest ./docker/",
+    "docker-run": "docker run --rm -dit -p 5001:80 liveui/{{ name }}s:latest"
+  },
+  "dependencies": {
+    "react": "16.11.0",
+    "react-native": "0.62.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
+    "@composiv/liveui": "0.1.2",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^26.0.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "image-webpack-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "svg-url-loader": "^5.0.0",
+    "url-loader": "^4.1.0"
+    "concurrently": "^5.2.0",
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
