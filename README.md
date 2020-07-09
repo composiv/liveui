@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://liveui.composiv.ai/img/liveui-readme-banner.jpg" alt="LiveUI Banner" />
+</p>
+
 # @composiv/liveui
 
 This package includes scripts and configurations used by LiveUI applications/packages.
