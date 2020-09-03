@@ -23,6 +23,10 @@
     <a href="https://liveui.composiv.ai/docs/contributing">
         <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
     </a>
+    <!-- Gitter -->
+     <a href="https://gitter.im/composiv-liveui/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
+        <img src="https://badges.gitter.im/composiv-liveui/community.svg" alt="Gitter" />
+    </a>
 </p>
 
 This package includes scripts and configurations used by LiveUI applications/packages.
