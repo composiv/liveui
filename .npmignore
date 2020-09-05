@@ -16,17 +16,14 @@ npm-debug.log
 .watchmanconfig
 Jenkinsfile
 .eslintrc.js
-babel.config.js
 jsconfig.json
 publish.sh
 sonar*
 .editorconfig
-babel.config.js
 jest.config.js
 resultsProcessor.js
 sonar-project.properties
 lcov-report
-.babel.config.js
 coverage-final.json
 lcov.info
 test-report.xml
