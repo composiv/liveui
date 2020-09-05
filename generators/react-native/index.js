@@ -61,6 +61,12 @@ module.exports = plop => ({
         templateFile: './react-native/app.json.hbs',
         abortOnFail: true,
       },
+      {
+        type: 'add',
+        path: path.resolve(appPath, '.gitignore'),
+        templateFile: './react-native/.gitignore.hbs',
+        abortOnFail: true,
+      },
       function copyStaticFiles() {
         const source = path.resolve(__dirname, 'static');
 

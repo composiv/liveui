@@ -1,12 +1,12 @@
 {
   "name": "{{ name }}",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "liveui start",
     "build": "liveui build",
     "docker": "docker build -t liveui/{{ name }}:latest ./docker/",
-    "docker:run": "docker run --rm -it -p 5001:80 liveui/{{ name }}:latest"
+    "docker-run": "docker run --rm -it -p 5001:80 liveui/{{ name }}:latest"
   },
   "dependencies": {
     "react": "^16.13.1",
@@ -16,7 +16,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
-    '@composiv/liveui': "0.1.2",
+    "@composiv/liveui": "0.1.3",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
