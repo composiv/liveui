@@ -1,14 +1,14 @@
 {
-  "name": "@composiv/liveui",
+  "name": "@muto/liveui",
   "version": "0.1.3",
   "description": "Configuration and scripts for LiveUI.",
   "bin": {
     "liveui": "./bin/liveui.js"
   },
-  "author": "composiv",
+  "author": "Composiv.ai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/composiv/liveui"
+    "url": "https://github.com/eclipse-muto/liveui"
   },
   "license": "Apache-2.0",
   "dependencies": {
