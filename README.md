@@ -1,4 +1,4 @@
-# @muto/liveui
+# @eclipse-muto/liveui
 
 <img src="https://liveui.composiv.ai/img/liveui-readme-banner.jpg" alt="LiveUI Banner" align="center" />
 
@@ -8,8 +8,8 @@
         <img src="https://img.shields.io/github/license/eclipse-muto/liveui?color=blue" alt="GitHub license" />
     </a>
      <!-- npm Version -->
-    <a href="https://www.npmjs.com/package/@muto/liveui">
-        <img src="https://img.shields.io/npm/v/@muto/liveui?color=blue" alt="npm Version" />
+    <a href="https://www.npmjs.com/package/@eclipse-muto/liveui">
+        <img src="https://img.shields.io/npm/v/@eclipse-muto/liveui?color=blue" alt="npm Version" />
     </a>
     <!-- Dependency Status -->
     <a href="https://david-dm.org/eclipse-muto/liveui">
